@@ -19,7 +19,7 @@ class EcmThemeManager{
      surface: EcmColors.secondaryTextColor,
      onSurface: EcmColors.containerTextColor,
      onBackground: EcmColors.green,
-     onTertiary: EcmColors.infoColor,
+     onTertiary: EcmColors.grey.shade900,
      brightness: Brightness.light
   );
   static final ColorScheme _darkTheme = const ColorScheme.dark().copyWith(

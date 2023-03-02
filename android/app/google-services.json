@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "724569175528",
+    "project_id": "eccommerce-mobile",
+    "storage_bucket": "eccommerce-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724569175528:android:ab1180bf6bf5cf9d43605d",
+        "android_client_info": {
+          "package_name": "com.example.e_commerce_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724569175528-v76ng74751p8hde455c2pt900diecb7g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.e_commerce_mobile",
+            "certificate_hash": "810f6dfc6d553ec3b49eec4cb7dea69be9e972b1"
+          }
+        },
+        {
+          "client_id": "724569175528-ieq76pgkitfhq637sjujs5k7166a7fgl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN0sKcQFVUkwPUxEV5JqOWEO_VGSQHDVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724569175528-ieq76pgkitfhq637sjujs5k7166a7fgl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

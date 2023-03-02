@@ -1,5 +1,7 @@
 
 import 'package:e_commerce_mobile/appfolder/app.locator.dart';
+import 'package:e_commerce_mobile/appfolder/app.router.dart';
+import 'package:e_commerce_mobile/ui/views/startup/startup_view.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -21,18 +23,20 @@ void main() async {
   ).then((_) => runApp(ScreenUtilInit(
       designSize: const Size(375, 812),
       minTextAdapt: true,
-      builder: ((_, __) => const MyApp()))));
+      builder: ((_, __) =>  MyApp()))));
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+ const  MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  MaterialApp(
       title: 'E-commerce',
       debugShowCheckedModeBanner: false,
-      themeMode: ThemeMode.system,
+       onGenerateRoute: StackedRouter().onGenerateRoute,
+      navigatorKey: StackedService.navigatorKey,
+   //   themeMode: ThemeMode.system,
     );
   }
 }

@@ -8,7 +8,6 @@ environment:
 
 dependencies:
   cupertino_icons: ^1.0.2
-
   # An efficient way to for object equality
   equatable: ^2.0.5
   # Firebase
@@ -48,7 +47,7 @@ flutter:
   fonts:
     - family: SecularOne
       fonts:
-        - asset: fonts/SecularOne-Regular.ttf
+        - asset: assets/fonts/SecularOne-Regular.ttf
   
 
   
