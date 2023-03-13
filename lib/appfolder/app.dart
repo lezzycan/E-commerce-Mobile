@@ -12,7 +12,8 @@ import 'package:stacked_services/stacked_services.dart';
       AdaptiveRoute(page: Startup, initial: true),
       AdaptiveRoute(page: Home),
       AdaptiveRoute(page: Login),
-      AdaptiveRoute(page: CreateAccount)
+      AdaptiveRoute(page: CreateAccount),
+      AdaptiveRoute(page: ProductDetails),
  ],
  dependencies: [
   LazySingleton(classType: NavigationService),
